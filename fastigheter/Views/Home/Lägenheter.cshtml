@@ -1,0 +1,151 @@
+﻿@{
+    ViewData["Title"] = "Våra lägenheter";
+
+    var mediaURL = "https://edvardssonstorage.blob.core.windows.net/media/";
+    var token = "?sp=r&st=2022-12-28T08:43:03Z&se=2025-12-28T16:43:03Z&sv=2021-06-08&sr=c&sig=I9u6ktGoHuQaKt1EvmxIUPFJU23ZJi1iFCIMmXMYgRY%3D";
+    var skärstad = new List<string>
+    {
+        mediaURL + "house1.png" + token,
+        mediaURL + "house2.png" + token,
+        mediaURL + "house3.png" + token,
+        mediaURL + "house4.png" + token
+    };
+    var ölmstad = new List<string>
+    {
+        mediaURL + "house4.png" + token,
+        mediaURL + "house1.png" + token
+    };
+}
+<script>
+    document.addEventListener("click",function (e){
+        if(e.target.classList.contains("gallery-item")){
+        const src = e.target.getAttribute("src");
+        document.querySelector(".modal-img").src = src;
+        const myModal = new bootstrap.Modal(document.getElementById('gallery-modal'));
+        myModal.show();
+        }
+    })
+</script>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<div class="textArea">
+    <div class="row d-flex justify-content-center">
+        <div class="col-xl-3">
+            <h1>Våra lägenheter</h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-6">
+            <h2>Skärstad</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-6">
+            <div id="textField">
+                <p>Vi har XX antal lägenheter belägna i samhället Skärstad. Här stod de första lägenheterna klara 1995??</p>
+            </div>
+        </div>
+    </div>
+    <section class="gallery">
+        <div class="container-lg">
+            <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
+                @foreach (var url in skärstad)
+                {
+                    <div class="col">
+                        <img class="gallery-item" src="@url" alt="image">
+                    </div>
+                }
+            </div>
+        </div>
+    </section>
+
+    <div class="row">
+        <div class="col-6">
+            <h2>Ölmstad</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-6">
+            <div id="textField">
+                <p>Vi har även XX antal lägenheter belägna i samhället Ölmstad. Här stod de första lägenheterna klara 2004??</p>
+                <ul>
+                    <li>4 stycken</li>
+                    <li>1 RoK, 24 m2</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <section class="gallery">
+        <div class="container-lg">
+            <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
+                @foreach (var url in ölmstad)
+                {
+                    <div class="col">
+                        <img class="gallery-item" src="@url" alt="image">
+                    </div>
+                }
+            </div>
+        </div>
+    </section>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="gallery-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <!--<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>  -->
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="images/fakeLogo.png" class="modal-img" alt="modal img">
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .textArea {
+        background-color: rgba(255,255,255,.9);
+        color: #000000;
+        padding: 15px;
+    }
+
+    body {
+        background-image: url(https://edvardssonstorage.blob.core.windows.net/media/462753.jpg?sp=r&st=2022-12-28T08:43:03Z&se=2025-12-28T16:43:03Z&sv=2021-06-08&sr=c&sig=I9u6ktGoHuQaKt1EvmxIUPFJU23ZJi1iFCIMmXMYgRY%3D);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    img {
+        max-width: 100%;
+
+    }
+    .img-fluid {
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .gallery {
+        padding: 20px 0;
+    }
+
+        .gallery img {
+            background-color: #ffffff;
+            padding: 15px;
+            width: 100%;
+            max-height: 100%;
+            box-shadow: 0 0 15px rgba(0,0,0,0.3);
+            cursor: pointer;
+            height: 200px;
+            object-fit: cover;
+        }
+
+    .container-lg {
+        padding: 5px;    
+    }
+    </style>

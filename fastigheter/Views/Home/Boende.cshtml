@@ -1,0 +1,222 @@
+﻿@{
+
+}
+@model fastigheter.Models.ErrorReport
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width">
+</head>
+
+<script>
+    
+    document.addEventListener('DOMContentLoaded', () => {
+        const checkboxes = document.querySelectorAll('.chBox');
+
+        // Add event listener to each checkbox
+        checkboxes.forEach(checkbox => {
+            checkbox.addEventListener('change', () => {
+                // Uncheck all checkboxes except the one that was clicked
+                checkboxes.forEach(cb => {
+                    if (cb !== checkbox) {
+                        cb.checked = false;
+                    }
+                });
+            });
+        });
+    });
+    
+
+</script>
+
+<body>
+
+
+<!--Main layout-->
+<main class="mt-5">
+    <div class="container-fluid" style="background-color: rgba(251, 251, 251, 0.95); padding:8px">
+        <!--Section: Content-->
+        <!--Section Till dig som flyttar in    -->
+
+        <h4 class="text-center" style="margin: 20px; font-size: 32px">
+            <strong>Till dig som flyttar in</strong>
+        </h4>
+        <div class="row d-flex justify-content-center ">
+            <div class="col-10">
+                <ul>
+                    <li class="asd">
+                        <strong>Registrera dig hos folkbokföringen på skatteverket.se och ändra din adress på adressandring.se</strong> Alla bostäder är idag registrerade på Skatteverket. För att du ska bli registrerad på rätt lägenhet anger du ditt lägenhetsnummer som står på kontraktet. Har din nya bostad egen ytterdörr hoppar du över den rutan, då bostaden har en egen/unik adress.
+                    </li>
+
+                    <li class="asd">
+                        <strong>Teckna nytt elabonnemang på din nya adress</strong> och avsluta ditt gamla abonnemang på den förra adressen. Bor du inom Jönköpings Kommun är nätleverantören Jönköpings Energi.
+                    </li>
+                    <li class="asd">
+                        <strong>Vi har öppen fiber.</strong> För att teckna ett wifi-abonnemang söker du tjänsteleverantör på bredbandswebben.se och knappar in din bostadsadress.
+                    </li>
+                    <li class="asd">
+                        <strong>Hör av dig till oss och boka tid för överlämnande av nycklar och genomgång/besiktning av bostaden.</strong> Ett lägenhetsbyte sker vanligtvis vid ett månadsskifte. Är månadsskiftet under en helg eller röd dag sker lägenhetsskiftet senast kl 12.00 närmaste vardag.
+                    </li>
+                    <li class="asd">
+                        <strong>Gå igenom det besiktningsprotokoll</strong> som upprättas i samband med din inflytt. Kontrollera att det stämmer med lägenhetens skick. Vi önskar godkänt besiktningsprotokoll i retur senast inom tre dagar.
+                    </li>
+                    <li class="asd">
+                        <strong>Se över din hemförsäkring</strong>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+        <h5 class="mb-5 text-center" style="margin: 20px; font-size: 32px">
+            <strong>Enkla sätt att undvika dyra skador för dig som hyresgäst</strong>
+        </h5>
+        <div class="row d-flex justify-content-center">
+            <div class="col-10">
+                <p>Här punktar vi upp de mest vanliga förekommande skadorna som uppstår i en lägenhet under ett boende och som onödigt ofta medför tråkiga kostnader för hyresgästen vid en flytt </p>
+
+                <ul>
+                    <li class="asd">
+                        <strong>Saknad av sänggavel skapar lätt fettfläckar </strong> och är en av de vanligast förekommande skador vid en besiktning. Fläcken uppstår efter ett vilande huvud mot väggen. Det är en fettfläck som inte alltid syns när sängen står på plats eftersom den kryper nedåt. En fettfläck måste underbehandlas innan den målas över för att inte gå igenom igen. Ofta måste hela sovrummet målas eller tapetseras om för att få enhetligt till nästa hyresgäst flyttar in.
+                    </li>
+
+                    <li class="asd">
+                        <strong>Uppfläkta tapeter och målade ytor efter självklistrande kabelrännor </strong> skapar riktigt fula och synliga märken och är alltmer vanligt förekommande skada. Använd klammer och liten nubb istället.
+                    </li>
+                    <li class="asd">
+                        <strong>Nedsliten parkett efter nötande skrivbordsstol.</strong> En dyrbar skada då parkett måste bytas i ett helt rum. Förödande på gamla fina stavparkettgolv som knappt går att ersätta. Använd gärna golvskydd.
+                    </li>
+                    <li class="asd">
+                        <strong>Badrumsmattor med gummerad undersida missfärgar golv.</strong> Flera badrumsgolv har fått missfärgade gula fläckar efter gummerade badrumsmattor. En tråkigt skada till ett som exempel nytt badrum.
+                    </li>
+                    <li class="asd">
+                        <strong>Använd plugg </strong> vid uppsättning av hyllor.
+                    </li>
+                    <li class="asd">
+                        <strong>Undvik Spegelväggar och klisterdekaler på väggar</strong>
+                    </li>
+                    <li class="asd">
+                        Rengör <strong>hällen på spisen</strong> efter strösocker och salt för att undvika repor
+                    </li>
+                    <li class="asd">
+                        <strong>Rökning inomhus undanbedes </strong>helt. Förekommer sanering av lägenhet efter en rökare.
+                    </li>
+                    <li class="asd">
+                        <strong>Det är inte tillåtet att borra/skruva i våtutrymmen </strong> kan vålla stor skada och förstöra fuktspärr.
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+
+        <!--Section: Felanmälan-->
+        <h4 class="mb-5 text-center" style="margin: 20px; font-size: 32px">
+            <strong>Felanmäla lägenhet</strong>
+        </h4>
+        <div class="col-md-10 offset-md-1">
+
+            <form asp-action="ErrorReport">
+                <div class="row d-flex justify-content-center ">
+
+                    <div class="row">
+                        <div class="form-outline">
+                            <label asp-for="AppartmentNumber" class="control-label">Adress och Lägenhetsnummer<a style="color:red">*</a></label>
+                            <textarea asp-for="AppartmentNumber" class="form-control" rows="1" id="nameAndSocialSecurityTextarea"></textarea>
+                            <span asp-validation-for="AppartmentNumber" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row d-flex justify-content-center ">
+                    <div class="col-12 col-sm-4">
+                        <div class="form-outline" style="Padding-Bottom:20px">
+                            <label asp-for="Name" class="control-label" style="Padding-Top:20px;">Namn:<a style="color:red">*</a></label>
+
+                            <input asp-for="Name" class="form-control"/>
+                            <span asp-validation-for="Name" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-3">
+                        <div class="form-outline" style="Padding-Bottom:20px">
+                            <label asp-for="Phone" class="control-label" style="Padding-Top:20px;">Telefonnummer:<a style="color:red">*</a></label>
+                            <input asp-for="Phone" class="form-control"/>
+                            <span asp-validation-for="Phone" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-5">
+                        <div class="form-outline" style="Padding-Bottom:20px">
+                            <label asp-for="Mail" class="control-label" style="Padding-Top:20px;">E-post:<a style="color:red">*</a></label>
+                            <input asp-for="Mail" class="form-control"/>
+                            <span asp-validation-for="Mail" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row d-flex justify-content-center">
+                    <p>Är det OK att vi går in med nyckel och undersöker om ingen är hemma? <a style="color:red">*</a></p>
+                    <div class="form-outline mb-4">
+                        <span>
+                            <strong>Ja</strong>
+                        </span>
+                        <input class="chBox" type="checkbox" class="group-required" data-val="true" id="AccessWithKeyYes" name="AccessWithKeyYes" value="true">
+                        <input name="orts" type="hidden" value="false">
+                        <span class="text-danger field-validation-valid" data-valmsg-for="AccessWithKeyYes" data-valmsg-replace="true"></span>
+                        <span>
+                            <strong>Nej</strong>
+                        </span>
+                        <input class="chBox" type="checkbox" data-val="true" id="AccessWithKeyNo" name="AccessWithKeyNo" value="true">
+                        <input name="orts" type="hidden" value="false">
+                        <span class="text-danger field-validation-valid" data-valmsg-for="AccessWithKeyNo" data-valmsg-replace="true"></span>
+                    </div>
+
+                </div>
+                <p>
+                    <h2>Beskrivning av fel</h2>
+                </p>
+                <div class="row d-flex justify-content-center">
+                    <div class="col">
+                        <div class="form-group">
+                            <textarea asp-for="ErrorDescription" textarea class="form-control textarea" id="Intresserad" rows="3"></textarea></>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Submit button -->
+                <div class="d-flex flex-row justify-content-between" style="margin-top:8px">
+                    <button type="submit" class="btn btn-primary btn-block mb-4" id="subm-button-error" enabled>
+                        Skicka felanmälan
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</main>
+
+<style>
+        .chBox {
+            top: 1.2rem;
+            scale: 1.6;
+            margin-left: 0.8rem;
+            margin-right: 0.8rem;
+        }
+        
+        .asd {
+            Padding:10px;
+        }
+
+        .textArea {
+            background-color: rgba(255,255,255,.5);
+            color: #000000;
+        }
+
+        body {
+            background-image: url(https://wallpaperset.com/w/full/e/3/2/462753.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</body>
+</html>

@@ -1,0 +1,90 @@
+﻿@{
+    ViewData["Title"] = "Våra Lägenheter";
+    string mediaURL = "https://edvardssonstorage.blob.core.windows.net/media/";
+    string token = "?sp=r&st=2022-12-28T08:43:03Z&se=2025-12-28T16:43:03Z&sv=2021-06-08&sr=c&sig=I9u6ktGoHuQaKt1EvmxIUPFJU23ZJi1iFCIMmXMYgRY%3D";
+    string url = mediaURL + "gang.jpeg" + token;
+	string urlLinn = mediaURL + "AboutUsLinn.jpg" + token;
+	string urlMikael = mediaURL + "AboutUsMikael.jpg" + token;
+	string urlRolf = mediaURL + "AboutUsRolf.jpg" + token;
+	string url2 = mediaURL + "teams-picture-brighter.jpg" + token;
+	}
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="row" style="background-color:rgba(255,255,255,0.75)">
+        <div class="col-md-12 col-sm-12 col-xl-12">
+            <h1>Vilka är vi?</h1>
+            <p><p><strong>Edvardsson:arna är en kärnfamilj med rötter i Skärstad sedan urminnes tider. Allt började med en bygghandel:</strong></p>
+            <p>Rolf, överhuvudet i släktet Edvardsson, som hade startat upp en bygghandel tillsammans med sin förstfödde, Mikael, såg en brist och möjligheter för ett antal nya bostäder i Skärstad. Sagt och gjort så investerade de stort i att producera upp nya lägenheter, som snabbt fick spridning och blev ett fantastiskt eftertraktat boende för alla i trakten.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <p>Rolf Edvardsson</p>
+            <img src="@urlRolf" class="img-fluid" />
+        </div>
+        <div class="col-md-4">
+            <p>Mikael Edvardsson</p>
+            <img src="@urlMikael" class="img-fluid" />
+        </div>
+        <div class="col-md-4">
+            <p>Linn Edvardsson</p>
+            <img src="@urlLinn" class="img-fluid" />
+        </div>
+    </div>
+
+    <div class="row" style="background-color:rgba(255,255,255,0.75)">
+        <div class="col-md-6 offset-md-1">
+                <div class="textArea">
+                    <h2 style="padding:8px">Vårt syfte</h2>
+                        <p style="padding:8px"><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget bibendum tellus. Nunc vel imperdiet tellus. Mauris ornare aliquam urna, accumsan bibendum eros auctor ac.</strong></p>
+                        <p style="padding:8px">Maecenas vestibulum fermentum eleifend. Mauris erat sem, suscipit non tincidunt quis, vestibulum eget elit. Duis eget arcu ante. Proin nulla elit, elementum sit amet commodo et, eleifend vitae quam. Nam vel aliquam tortor. Aliquam bibendum erat a urna interdum quis mattis augue interdum. Phasellus fermentum bibendum mauris, ut semper justo pharetra vestibulum. Duis dictum purus sed nibh commodo a congue elit lobortis. Nunc sed feugiat tellus. Mauris aliquet lorem non enim euismod quis fermentum erat porta. Nullam non elit orci. Aliquam blandit mattis feugiat. Cras pulvinar aliquet massa, quis laoreet mi pulvinar ac. Aliquam mi augue, vehicula in consectetur in, porttitor sed tellus. Mauris convallis dapibus auctor. Integer in egestas lorem. In nulla dolor, sollicitudin vitae sollicitudin quis, viverra at lorem.</p>
+                        <p style="padding:8px">Ut ullamcorper velit et nisi feugiat non sagittis tortor pharetra. Mauris ut urna et magna commodo cursus. Curabitur quis elementum arcu. Maecenas eleifend, urna vitae vehicula bibendum, felis tellus tincidunt lorem, at iaculis neque eros ac dui. Nunc malesuada pulvinar suscipit. Phasellus sed tortor quis ligula facilisis aliquam. Aliquam quis magna eu dolor posuere malesuada. Quisque consequat, metus fermentum convallis imperdiet, ante justo pharetra enim, vel commodo ipsum mauris eget purus. Morbi lacinia nisl urna, scelerisque suscipit lacus. Nulla ac orci ut nunc venenatis gravida.</p>
+                </div>
+        </div>
+            <div class="col-md-3 offset-md-1">
+                    <h2 class="star">Här kan vi ha en lista med relevant information:</h2>
+                    <div class="clr"></div>
+                    <ul class="sb_menu">
+                        <li>Liam är bäst?</li>
+                        <li>Linn är mindre bra, har även haft köttelfeber!</li>
+                        <li>... är Wordle för modernt?</li>
+                        <li>Kanske går att länka till bilder??</li>
+                        <li>Eller ska vi länka till ett kontaktformulär?</li>
+                    </ul>
+                    <h2 class="star"><span>Övriga länkar:</span></h2>
+                    <div class="clr"></div>
+                    <ul class="ex_menu">
+                        <li>
+                            <a href="https://sv.wikipedia.org/wiki/Sk%C3%A4rstad">Wiki om Skärstad</a><br />
+                        </li>
+                        <li>
+                            <a href="https://sv.wikipedia.org/wiki/%C3%96lmstad">Wiki om Ölmstad</a><br />
+                        </li>
+                        <li>
+                            <a href="https://k-bygg.se/kontakt/vara-butiker/huskvarna">KBygg Huskvarna</a><br />
+                            (F.d. XL Edvardsson)
+                        </li>
+                    </ul>
+            </div>
+        </div>
+    <style>
+        .textArea {
+            background-color: rgba(255,255,255,.5);
+            color: #000000;
+        }
+
+        body {
+            background-image: url(https://wallpaperset.com/w/full/e/3/2/462753.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>   
+</body>
+</html>
+
+

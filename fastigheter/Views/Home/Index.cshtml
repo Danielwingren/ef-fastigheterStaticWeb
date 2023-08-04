@@ -1,0 +1,244 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    const string mediaUrl = "https://edvardssonstorage.blob.core.windows.net/media/";
+    var token = "?sp=r&st=2022-12-28T08:43:03Z&se=2025-12-28T16:43:03Z&sv=2021-06-08&sr=c&sig=I9u6ktGoHuQaKt1EvmxIUPFJU23ZJi1iFCIMmXMYgRY%3D";
+    var url = mediaUrl + "GodJulMikael.jpg" + token;
+    var urlKarta = mediaUrl + "karta1.jpg" + token;
+    //<div class="bg-image" style="background-color: transparent; height: 100vh"></div>
+    var urlBackground = mediaUrl + "462753.jpg" + token;
+}
+<head>
+    <meta name="google-site-verification" content="Uoul12Tx2BY8mI80_AOFJ2ZKRpNen84qQCf735hTLN0" />
+</head>
+<script>
+    $(document).ready(function () {
+        var cookie = false;
+        var cookieContent = $('.cookie-disclaimer');
+
+        checkCookie();
+
+        if (cookie === true) {
+            cookieContent.hide();
+        }
+
+        function setCookie(cname, cvalue, exdays) {
+            var d = new Date();
+            d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+            var expires = "expires=" + d.toGMTString();
+            document.cookie = cname + "=" + cvalue + "; " + expires;
+        }
+
+        function getCookie(cname) {
+            var name = cname + "=";
+            var ca = document.cookie.split(';');
+            for (var i = 0; i < ca.length; i++) {
+                var c = ca[i].trim();
+                if (c.indexOf(name) === 0) return c.substring(name.length, c.length);
+            }
+            return "";
+        }
+
+        function checkCookie() {
+            var check = getCookie("acookie");
+            if (check !== "") {
+                return cookie = true;
+            } else {
+                return cookie = false; //setCookie("acookie", "accepted", 365);
+            }
+
+        }
+        $('.accept-cookie').click(function () {
+            setCookie("acookie", "accepted", 365);
+            cookieContent.hide(500);
+        }); 
+
+        // Get a reference to the video element
+        const videoSkärstad = document.getElementById('loopingVideoSkärstad');
+
+        // Ensure that the video has loaded before setting it to loop
+        video.addEventListener('loadeddata', () => {
+            // Enable the loop attribute to play the video continuously
+            videoSkärstad.setAttribute('loop', true);
+            // Start playing the video
+            videoSkärstad.play();
+        });
+        const videoÖlm = document.getElementById('loopingVideoÖlm');
+
+        // Ensure that the video has loaded before setting it to loop
+        videoÖlm.addEventListener('loadeddata', () => {
+            // Enable the loop attribute to play the video continuously
+            videoÖlm.setAttribute('loop', true);
+            // Start playing the video
+            videoÖlm.play();
+        });
+
+        const player = document.getElementById("yt");
+        player.addEventListener("ended", function () {
+            // Reload the video when it ends to create a looping effect
+            player.contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*');
+            player.contentWindow.postMessage('{"event":"command","func":"' + 'playVideo' + '","args":""}', '*');
+        });
+    });
+
+
+</script>
+
+<style>
+    body {
+        background-image: url(https://edvardssonstorage.blob.core.windows.net/media/462753.jpg?sp=r&st=2022-12-28T08:43:03Z&se=2025-12-28T16:43:03Z&sv=2021-06-08&sr=c&sig=I9u6ktGoHuQaKt1EvmxIUPFJU23ZJi1iFCIMmXMYgRY%3D);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    .cookie-disclaimer {
+        background: #000000;
+        color: #FFF;
+        opacity: 0.8;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
+        height: 150px;
+        position: fixed;
+    }
+
+        .cookie-disclaimer .container {
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .cookie-disclaimer .cookie-close {
+            float: right;
+            padding: 10px;
+            cursor: pointer;
+        }
+</style>
+<body>
+
+<!--Main layout-->
+<main class="mt-5">
+    <div class="container-fluid" style="background-color: rgba(251, 251, 251, 0.95); padding:8px">
+        <!--Section: Content-->
+        <section>
+            <div class="row">
+                <div class="col-md-6 gx-5 mb-4">
+
+                    <div class="bg-image hover-overlay ripple shadow-2-strong rounded-5" data-mdb-ripple-color="light">
+                        <img src="https://mdbootstrap.com/img/new/slides/031.jpg" class="img-fluid"/>
+                        <a>
+                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-6 gx-5 mb-4">
+                    <h4>
+                        <strong>Välkommen till Edvardssons Fastigheter</strong>
+                    </h4>
+                    <p class="text" style="font-family: Arial" color="black">
+                        Edvardssons Fastigheter är ett familjeföretag som ligger i Skärstad mellan Huskvarna och Gränna.
+                        Företaget förvaltar hyresfastigheter i Skärstad & Ölmstad totalt 55 bostadslägenheter samt 2 Industrilokaler i Skärstad.
+                        Vi har bostäder i Skärstad på två ställen ett vid infarten söderifrån samt ett vid rondellen-skolan.
+                        I Ölmstad har vi ett område på Bunnvägen.
+                    </p>
+                    <a>NYHET! <br/>Nu finns det bilder på lägenheterna i Skärstad att beskåda!</a>
+
+                </div>
+            </div>
+        </section>
+        <!--Section: Content-->
+
+        <hr class="my-5"/>
+
+        <!--Section: Content-->
+        <section class="text-center">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 mb-4">
+                    <div class="card">
+                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                            <!--<video id="loopingVideoSkärstad" width="100%" height="300" autoplay loop muted>
+                                <source src="/videos/indexSkarstad.webm" type="video/webm">
+                            </video>
+                            -->
+                                <iframe id="yt" style="border: none;" src="https://www.youtube.com/embed/xCdgxX7dZOU?playlist=xCdgxX7dZOU&controls=0&loop=1&autoplay=1&mute=1" allowfullscreen height="300px" width="360px"> </iframe>
+                            <a>
+                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Skärstad</h5>
+                            <p class="card-text">
+                                Två områden i Skärstad med totalt 34 st lägenheter, tryck för att läsa mer!
+                            </p>
+                                <a class="btn btn-primary" asp-area="" asp-controller="Home" asp-action="Skärstad">Läs mer</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                <video id="loopingVideoÖlm" width="100%" height="300" autoplay muted loop>
+                                    <source src="/videos/ölmIndex.webm" type="video/webm">
+                                </video>
+                                <a>
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Ölmstad</h5>
+                            <p class="card-text">
+                                I ölmstad förvaltar vi 21 lägenheter, klicka nedan för att läsa mer!
+                            </p>
+                                <a class="btn btn-primary" asp-area="" asp-controller="Home" asp-action="Ölmstad">Läs mer</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                            <img src="@urlKarta" class="img-fluid" style="height:20rem"/>
+                            <a>
+                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Nära till natur och city</h5>
+                            <p class="card-text">
+                                Med ett boende i Skärstad eller Ölmstad har du alltid nära till natur, samtidigt som du endast har ungefär 20 minuter med buss
+                                in till Huskvarna/Jönköping från Skärstad. <br />Från Ölmstad är denna resa ungefär 5 minuter längre.
+                            </p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Section: Content-->
+            
+
+        <hr class="my-5"/>
+    </div>
+        
+</main>
+<!--Main layout-->
+<!-- /.container -->
+    <div class="cookie-disclaimer">
+        <div class="cookie-close accept-cookie"><i class="fa fa-times"></i></div>
+        <div class="container">
+            <p>
+                Edvardssons Fastigheter Vi använder kakor för att förbättra din upplevelse på vår webbplats.<a href="#"> Läs mer om hur vi använder kakor</a>.
+                <br>Genom att använda vår webbplats godkänner du vår användning av kakor.
+            </p>
+            <button type="button" class="btn btn-success accept-cookie">OK!</button>
+        </div>
+    </div>
+</body>

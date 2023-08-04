@@ -1,0 +1,236 @@
+﻿@{
+    ViewData["Title"] = "Våra lägenheter";
+
+    var skärstadBack = new List<string>
+    {
+        "/images/bäckängsgatan/back1.jpg",
+        "/images/bäckängsgatan/back2.jpg",
+        "/images/bäckängsgatan/back3.jpg",
+        "/images/bäckängsgatan/back4.jpg",
+        "/images/bäckängsgatan/back5.jpg",
+        "/images/bäckängsgatan/back6.jpg",
+        "/images/bäckängsgatan/back7.jpg",
+        "/images/bäckängsgatan/back8.jpg",
+        "/images/bäckängsgatan/back9.jpg",
+        "/images/bäckängsgatan/back10.jpg",
+        "/images/bäckängsgatan/back11.jpg"
+    };
+    var skärstadHill = new List<string?>
+    {
+        "/images/hillingevägen/hillinge1JPG.jpg",
+        "/images/hillingevägen/hillinge2JPG.jpg",
+        "/images/hillingevägen/hillinge3JPG.jpg",
+        "/images/hillingevägen/hillinge4JPG.jpg",
+        "/images/hillingevägen/hillinge5JPG.jpg"
+    };
+}
+<script>
+    document.addEventListener("click", function (e) {
+        if (e.target.classList.contains("gallery-item") || e.target.classList.contains("play-button")) {
+            console.log("yay");
+            const src = e.target.getAttribute("src");
+            const substr = src.substring(src.length - 4);
+            if (substr == "webm") 
+            {
+                document.querySelector(".modal-video").src = src;
+                const myModalVid = new bootstrap.Modal(document.getElementById('gallery-modal-video'));
+                myModalVid.show();
+            } 
+            else 
+            {
+            document.querySelector(".modal-img").src = src;
+            const myModal = new bootstrap.Modal(document.getElementById('gallery-modal'));
+            myModal.show();
+            }
+        }
+    })
+
+</script>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<div class="textArea">
+    <div class="row">
+        <div class="col-12">
+            <div id="textField">
+                <h2>Vi har 34 lägenheter fördelat på två områden i samhället Skärstad.</h2>
+                <a><br/></a>
+                <h5>På område Hillingevägen förvaltar vi 9 lgh (från 1rok till 4rok). Byggår: 1998-1999</h5>
+            </div>
+        </div>
+    </div>
+    <div class="gallery">
+        <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
+            <div class="video-container">
+                <video loop muted class="gallery-item" src="/videos/hillingevägenFly.webm">
+                    <source src="/videos/ölmFlyBy.webm"/>
+                </video>
+                <div class="play-button" src="/videos/hillingevägenFly.webm">
+                    <div class="videoTitle" src="/videos/hillingevägenFly.webm">
+                        Skyview Hillingevägen
+                    </div>
+                </div>
+            </div>
+            @foreach (var url in skärstadHill)
+            {
+                <div class="col">
+                    <img class="gallery-item" src="@url" alt="image">
+                </div>
+            }
+        </div>
+    </div>
+    <br/>
+    <br/>
+    <div class="row">
+        <div class="col-12">
+            <div id="textField">
+                <a></a>
+                <h5>På område Bäckängsgatan förvaltar vi 25 lgh (16st 3rok 9st 2rok). Byggår: 2017-2019</h5>
+            </div>
+        </div>
+    </div>
+    <section class="gallery">
+        <div class="container-lg">
+            <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
+                <div class="video-container">
+                    <video loop muted class="gallery-item" src="/videos/bäckängsgatanFlyOver.webm">
+                            <source src="/videos/bäckängsgatanFlyOver.webm" />
+                    </video>
+                        <div class="play-button" src="/videos/bäckängsgatanFlyOver.webm">
+                            <div class="videoTitle" src="/videos/bäckängsgatanFlyOver.webm">
+                            Skyview Bäckängsgatan
+                        </div>
+                    </div>
+                        
+                </div>
+                @foreach (var url in skärstadBack)
+                {
+                    <div class="col">
+                        <img class="gallery-item" src="@url" alt="image">
+                    </div>
+                }
+            </div>
+        </div>
+    </section>
+</div>
+</body>
+<!-- Modal -->
+<div class="modal fade" id="gallery-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <!--<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>  -->
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="/images/headerImgsmall.png" class="modal-img" alt="modal img">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="gallery-modal-video" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <!--<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>  -->
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <video autoplay mute loop src="/images/headerImgsmall.png" class="modal-video" alt="modal video"> </video>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .textArea {
+        background-color: rgba(255,255,255,.9);
+        color: #000000;
+        padding: 15px;
+    }
+
+    body {
+        background-image: url("/images/background.jpg"); /*url(https://edvardssonstorage.blob.core.windows.net/media/462753.jpg?sp=r&st=2022-12-28T08:43:03Z&se=2025-12-28T16:43:03Z&sv=2021-06-08&sr=c&sig=I9u6ktGoHuQaKt1EvmxIUPFJU23ZJi1iFCIMmXMYgRY%3D);*/
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .back-video {
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: -1;
+        width: 100%;
+        height 100%;
+    }
+    
+    img {
+        max-width: 100%;
+    }
+
+    .img-fluid {
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .gallery {
+        padding: 10px 0;
+    }
+
+        .gallery img {
+            background-color: #ffffff;
+            padding: 15px;
+            width: 100%;
+            max-height: 100%;
+            box-shadow: 0 0 15px rgba(0,0,0,0.3);
+            cursor: pointer;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .gallery video {
+            background-color: #ffffff;
+            padding: 15px;
+            width: 100%;
+            max-height: 100%;
+            box-shadow: 0 0 25px rgba(0,0,0,0.3);
+            cursor: pointer;
+            height: 200px;
+            object-fit: cover;
+        }
+        
+        .modal video {
+            width: 100%;
+        }
+
+
+    .gallery .video-container .play-button {
+        position: relative;
+        top: -45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 15px 0 15px 25px;
+        border-color: transparent transparent transparent rgba(255, 255, 255, 1);
+        cursor: pointer;
+    }
+    
+    .videoTitle {
+        color:white;
+
+        }
+
+        .gallery .video-container .play-button:hover {
+            border-color: transparent transparent transparent rgba(57, 255, 20, 1);
+        }
+        
+    .container-lg {
+        padding: 5px;
+    }
+</style>

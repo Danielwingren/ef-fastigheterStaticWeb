@@ -1,0 +1,429 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\fastigheter.bundle.scp.css",
+      "PackagePath": "staticwebassets\\fastigheter.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\css\\coin-slider.css",
+      "PackagePath": "staticwebassets\\css\\coin-slider.css"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\images\\background.jpg",
+      "PackagePath": "staticwebassets\\images\\background.jpg"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\images\\bunnvägen\\lm1.jpg",
+      "PackagePath": "staticwebassets\\images\\bunnvägen\\lm1.jpg"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\images\\bunnvägen\\lm2.jpg",
+      "PackagePath": "staticwebassets\\images\\bunnvägen\\lm2.jpg"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\images\\bunnvägen\\lm3.jpg",
+      "PackagePath": "staticwebassets\\images\\bunnvägen\\lm3.jpg"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\images\\bunnvägen\\lm4.jpg",
+      "PackagePath": "staticwebassets\\images\\bunnvägen\\lm4.jpg"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\images\\bunnvägen\\lm5.jpg",
+      "PackagePath": "staticwebassets\\images\\bunnvägen\\lm5.jpg"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\images\\bäckängsgatan\\back1.jpg",
+      "PackagePath": "staticwebassets\\images\\bäckängsgatan\\back1.jpg"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\images\\bäckängsgatan\\back10.jpg",
+      "PackagePath": "staticwebassets\\images\\bäckängsgatan\\back10.jpg"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\images\\bäckängsgatan\\back11.jpg",
+      "PackagePath": "staticwebassets\\images\\bäckängsgatan\\back11.jpg"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\images\\bäckängsgatan\\back2.jpg",
+      "PackagePath": "staticwebassets\\images\\bäckängsgatan\\back2.jpg"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\images\\bäckängsgatan\\back3.jpg",
+      "PackagePath": "staticwebassets\\images\\bäckängsgatan\\back3.jpg"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\images\\bäckängsgatan\\back4.jpg",
+      "PackagePath": "staticwebassets\\images\\bäckängsgatan\\back4.jpg"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\images\\bäckängsgatan\\back5.jpg",
+      "PackagePath": "staticwebassets\\images\\bäckängsgatan\\back5.jpg"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\images\\bäckängsgatan\\back6.jpg",
+      "PackagePath": "staticwebassets\\images\\bäckängsgatan\\back6.jpg"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\images\\bäckängsgatan\\back7.jpg",
+      "PackagePath": "staticwebassets\\images\\bäckängsgatan\\back7.jpg"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\images\\bäckängsgatan\\back8.jpg",
+      "PackagePath": "staticwebassets\\images\\bäckängsgatan\\back8.jpg"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\images\\bäckängsgatan\\back9.jpg",
+      "PackagePath": "staticwebassets\\images\\bäckängsgatan\\back9.jpg"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\images\\favicon.ico",
+      "PackagePath": "staticwebassets\\images\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\images\\header1.jpg",
+      "PackagePath": "staticwebassets\\images\\header1.jpg"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\images\\header2.jpg",
+      "PackagePath": "staticwebassets\\images\\header2.jpg"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\images\\header3.jpg",
+      "PackagePath": "staticwebassets\\images\\header3.jpg"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\images\\headerImgsmall.png",
+      "PackagePath": "staticwebassets\\images\\headerImgsmall.png"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\images\\hillingevägen\\hillinge1JPG.jpg",
+      "PackagePath": "staticwebassets\\images\\hillingevägen\\hillinge1JPG.jpg"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\images\\hillingevägen\\hillinge2JPG.jpg",
+      "PackagePath": "staticwebassets\\images\\hillingevägen\\hillinge2JPG.jpg"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\images\\hillingevägen\\hillinge3JPG.jpg",
+      "PackagePath": "staticwebassets\\images\\hillingevägen\\hillinge3JPG.jpg"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\images\\hillingevägen\\hillinge4JPG.jpg",
+      "PackagePath": "staticwebassets\\images\\hillingevägen\\hillinge4JPG.jpg"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\images\\hillingevägen\\hillinge5JPG.jpg",
+      "PackagePath": "staticwebassets\\images\\hillingevägen\\hillinge5JPG.jpg"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\js\\coin-slider.min.js",
+      "PackagePath": "staticwebassets\\js\\coin-slider.min.js"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\js\\jquery-1.4.2.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-1.4.2.min.js"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\js\\script.js",
+      "PackagePath": "staticwebassets\\js\\script.js"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\videos\\bäckängsgatanFlyOver.webm",
+      "PackagePath": "staticwebassets\\videos\\bäckängsgatanFlyOver.webm"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\videos\\headerMovie.mp4",
+      "PackagePath": "staticwebassets\\videos\\headerMovie.mp4"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\videos\\headerMovie2lowerRes.webm",
+      "PackagePath": "staticwebassets\\videos\\headerMovie2lowerRes.webm"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\videos\\hillingevägenFly.webm",
+      "PackagePath": "staticwebassets\\videos\\hillingevägenFly.webm"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\videos\\indexSkarstad.ogg",
+      "PackagePath": "staticwebassets\\videos\\indexSkarstad.ogg"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\videos\\indexSkarstad.webm",
+      "PackagePath": "staticwebassets\\videos\\indexSkarstad.webm"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\videos\\ölmBoomerang.webm",
+      "PackagePath": "staticwebassets\\videos\\ölmBoomerang.webm"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\videos\\ölmIndex.webm",
+      "PackagePath": "staticwebassets\\videos\\ölmIndex.webm"
+    },
+    {
+      "Id": "C:\\Workspace\\Projekt\\private_projects\\edvardssons.dotnet\\fastigheter\\fastigheter\\wwwroot\\web.config",
+      "PackagePath": "staticwebassets\\web.config"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.fastigheter.props",
+      "PackagePath": "build\\fastigheter.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.fastigheter.props",
+      "PackagePath": "buildMultiTargeting\\fastigheter.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.fastigheter.props",
+      "PackagePath": "buildTransitive\\fastigheter.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.fastigheter.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

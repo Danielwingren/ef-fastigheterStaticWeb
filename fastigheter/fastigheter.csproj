@@ -1,0 +1,47 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\images\fakeLogo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Views\Home\images\AboutUsLinn.jpg" />
+    <None Remove="Views\Home\images\AboutUsMikael.jpg" />
+    <None Remove="Views\Home\images\AboutUsRolf.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="images\AboutUsLinn.jpg" />
+    <Content Include="images\AboutUsMikael.jpg" />
+    <Content Include="images\AboutUsRolf.jpg" />
+    <Content Include="Views\Home\images\AboutUsLinn.jpg" />
+    <Content Include="Views\Home\images\AboutUsMikael.jpg" />
+    <Content Include="Views\Home\images\AboutUsRolf.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\images\fakeLogo.png" />
+    <None Include="wwwroot\js\coin-slider.min.js" />
+    <None Include="wwwroot\js\jquery-1.4.2.min.js" />
+    <None Include="wwwroot\js\script.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Communication.Email" Version="1.0.0-beta.1" />
+    <PackageReference Include="Azure.Storage.Blobs" Version="12.14.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.11" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="js\" />
+    <Folder Include="wwwroot\videos\" />
+  </ItemGroup>
+
+</Project>

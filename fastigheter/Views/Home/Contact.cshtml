@@ -1,0 +1,266 @@
+﻿@{
+
+}
+@model fastigheter.Models.Intresse
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<script>
+    window.onload = function () {
+
+        function checkChBox() {
+            var textLn = textArea.value;
+            if (!checkbox1.checked && !checkbox2.checked || !checkbox3.checked ) {
+                console.log("Checkboxes is not checked..");
+                document.getElementById("subm-button").disabled = true;
+            } else if (getWordCount(textLn) < 80 && (checkbox1.checked || checkbox2.checked)) {
+                document.getElementById("subm-button").disabled = false;
+                console.log("At least one checkbox is checked..");
+            }
+        }
+
+        const textArea = document.getElementById('Intresserad');
+        textArea.addEventListener('input', () => {
+            var textLn = textArea.value;
+            if (getWordCount(textLn) > 80) {
+                document.getElementById("subm-button").disabled = true;
+                document.getElementById("countText").style.color = "red";
+            } else if (getWordCount(textLn) < 80 && (checkbox1.checked || checkbox2.checked)) {
+                document.getElementById("subm-button").disabled = false;
+                document.getElementById("countText").style.color = "black";
+            } else if (getWordCount(textLn) < 80) {
+                document.getElementById("countText").style.color = "black";
+            }
+            document.getElementById('countText').innerHTML = getWordCount(textLn) + "/80";
+        });
+        var checkbox1 = document.querySelector("input[name=Skärstad]");
+        var checkbox2 = document.querySelector("input[name=Ölmstad]");
+        var checkbox3 = document.querySelector("input[name=AgreeToTerms]");
+        checkbox1.addEventListener('change', checkChBox);
+        checkbox2.addEventListener('change', checkChBox);
+        checkbox3.addEventListener('change', checkChBox);
+
+    }
+    function getWordCount(str) {
+        return str.trim().split(/\s+/).length;
+    }
+
+    $(document).ready(function () {
+        $('#numberOfPersons').on('change', function () {
+            var numberOfPersons = $(this).val();
+            var textarea = $('#nameAndSocialSecurityTextarea');
+            textarea.attr('rows', numberOfPersons);
+        });
+    });
+
+</script>
+
+<body>
+
+<!--Section: Content-->
+<div class="row" style="background-color:rgba(255,255,255,0.9)">
+    <h4 class="mb-5 text-center" style="margin: 20px; font-size: 32px">
+        <strong>Bostadsansökan</strong>
+    </h4>
+    <div class="col-md-10 offset-md-1">
+
+        <form asp-action="Index">
+            <div class="row d-flex justify-content-center ">
+                <p style="margin: 10px;font-size:18px">Information om den/de ansökande, fält markerade med <strong style="color: red">*</strong> måste fyllas i korrekt.</p>
+                <div class="row">
+                    <div class="col-auto">
+                        <p>Antal boende: <a style="color:red"> *</a></p>
+                    </div>
+                    <div class="col-4 col-xs-1 col-sm-2 col-md-2 col-lg-1">
+                        <select asp-for="AmountOfResidents" class="form-control" id="numberOfPersons">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                        </select>
+                    </div>
+                    <p> </p>
+                </div>
+                <div class="row">
+                    <div class="form-outline">
+                        <label asp-for="NameAndSocialSecurity" class="control-label">Namn och personnummer på SAMTLIGA som ska bo i lägenheten <a style="color:red">*</a></label>
+                        <textarea asp-for="NameAndSocialSecurity" class="form-control" rows="1" id="nameAndSocialSecurityTextarea" placeholder="Namn Efternamn Personnummer(ååååmmdd-xxxx)&#10;Namn Efternamn Personnummer(ååååmmdd-xxxx)&#10;..."></textarea>
+                        <span asp-validation-for="NameAndSocialSecurity" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- Mobile input -->
+                    <div class="col-sm-6">
+                        <div class="form-outline">
+                            <label asp-for="PrimaryPhone" class="control-label">Telefon<a style="color:red">*</a></label>
+                            <input asp-for="PrimaryPhone" class="form-control"/>
+                            <span asp-validation-for="PrimaryPhone" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-outline" style="padding-bottom:20px;">
+                            <label asp-for="PrimaryEmail" class="control-label">E-post <a style="color:red">*</a></label>
+                            <input asp-for="PrimaryEmail" class="form-control"/>
+                            <span asp-validation-for="PrimaryEmail" class="text-danger"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div style="border: 1px solid lightgrey; padding: 10px; padding-top:20px;">
+                <p style="padding-top:20px">
+                    <i>Om ni är flera som undertecknar avtalet:</i>
+                </p>
+                <div class="row d-flex justify-content-center ">
+
+                    <div class="col">
+                        <!-- Mobile input -->
+                        <div class="col-12" style="Padding:10px">
+
+                            <label asp-for="SecondaryPhone" class="control-label">Telefon person #2</label>
+                            <input asp-for="SecondaryPhone" class="form-control"/>
+                            <span asp-validation-for="SecondaryPhone" class="text-danger"></span>
+                        </div>
+                    </div>
+
+
+                    <div class="col">
+                        <div class="col-12" style="Padding:10px">
+                            <label asp-for="SecondaryEmail" class="control-label">E-post person #2</label>
+
+                            <input asp-for="SecondaryEmail" class="form-control"/>
+                            <span asp-validation-for="SecondaryEmail" class="text-danger"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center ">
+                <div class="col-12 col-sm-4">
+                    <div class="form-outline" style="Padding-Bottom:20px">
+                        <label asp-for="Occupation" class="control-label" style="Padding-Top:20px;">Sysselsättning - försörjning<a style="color:red">*</a></label>
+
+                        <input asp-for="Occupation" class="form-control"/>
+                        <span asp-validation-for="Occupation" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-3">
+                    <div class="form-outline" style="Padding-Bottom:20px">
+                        <label asp-for="CurrentLiving" class="control-label" style="Padding-Top:20px;">Så bor jag/vi idag<a style="color:red">*</a></label>
+                            <input asp-for="CurrentLiving" class="form-control" placeholder="(typ av bostad och bostadsort)" />
+                        <span asp-validation-for="CurrentLiving" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-5">
+                    <div class="form-outline" style="Padding-Bottom:20px">
+                        <label asp-for="Reference" class="control-label" style="Padding-Top:20px;">Referens<a style="color:red">*</a></label>
+                        <input asp-for="Reference" class="form-control" placeholder="(namn och telefonnummer till din referens)"/>
+                        <span asp-validation-for="Reference" class="text-danger"></span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row d-flex justify-content-center">
+                <p>Har du några betalningsanmärkningar? <a style="color:red">*</a></p>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="PaymentNote" id="paymentNoteTrue" value="true">
+                    <label class="form-check-label" for="paymentNoteTrue">
+                        Ja
+                    </label>
+                </div>
+                <div class="form-check" style="Padding-bottom:20px">
+                    <input class="form-check-input" type="radio" name="PaymentNote" id="paymentNoteFalse" value="false">
+                    <label class="form-check-label" for="paymentNoteFalse">
+                        Nej
+                    </label>
+                </div>
+            </div>
+            <p>
+                <strong>Önskemål kring bostad</strong>
+            </p>
+            <!-- Checkbox for Skärstad/Ölmstad -->
+            <div class="row d-flex justify-content-center">
+                <p>Kryssa i vilken/vilka orter du är intresserad av: <a style="color:red">*</a></p>
+                <div class="form-outline mb-4">
+                    <span>
+                        <strong>Skärstad</strong>
+                    </span>
+                    <input class="chBox" type="checkbox" class="group-required" data-val="true" id="Skärstad" name="Skärstad" value="true">
+                    <input name="orts" type="hidden" value="false">
+                    <span>
+                        <strong>Ölmstad</strong>
+                    </span>
+                    <input class="chBox" type="checkbox" data-val="true" id="Ölmstad" name="Ölmstad" value="true">
+                    <input name="orts" type="hidden" value="false">
+                    <span class="text-danger field-validation-valid" data-valmsg-for="Ölmstad" data-valmsg-replace="true"></span>
+                </div>
+
+            </div>
+            <div class="row d-flex justify-content-center">
+                <div class="col-12 col-sm-5">
+                    <div class="form-outline" style="Padding-Bottom:20px">
+                        <label asp-for="DateToMove" class="control-label" style="Padding-Top:20px;">Önskat Inflyttningsdatum<a style="color:red">*</a></label>
+                        <input asp-for="DateToMove" class="form-control" placeholder="ÅÅÅÅ-MM-DD eller &quot;Snarast&quot;"/>
+                        <span asp-validation-for="DateToMove" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center">
+                <div class="col">
+                    <div class="form-group">
+                        <label for="Intresserad">Meddelande/Övrig information: <i>vilken storlek eller antal rum för lägenheten, övriga önskemål om boendet</i></label>
+                        <textarea asp-for="SizeAndComments" textarea class="form-control textarea" id="Intresserad" rows="2"></textarea></>
+                        <div class="align-content-end">
+                            <p id="countText">0/80</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <span>
+                <strong>Behandling av personuppgifter</strong>
+                <i>Jag / vi medger genom att skicka detta formulär att uppgifterna i ansökan får kontrolleras hos berörda, 
+                    att uppgifter om aktuella och tidigare boendeförhållanden får inhämtas från hyresvärdar, 
+                    att kreditupplysning får inhämtas och att personnummer i ansökan införs och behandlas i dataregister 
+                    för Edvardssons Fastigheters verksamhet.</i>
+            </span>
+                <div class="d-flex flex-row justify-content-between" style="margin-top:8px;margin-bottom:10px">
+                    <input class="chBox" type="checkbox" data-val="true" id="AgreeToTerms" name="AgreeToTerms" value="true">
+                    <input name="orts" type="hidden" value="false">
+                    <span class="text-danger field-validation-valid" data-valmsg-for="AgreeToTerms" data-valmsg-replace="true"></span>
+                    </div>
+            <!-- Submit button -->
+            <div class="d-flex flex-row justify-content-between" style="margin-top:8px">
+                <button type="submit" class="btn btn-primary btn-block mb-4" id="subm-button" disabled>
+                    Skicka intresseanmälan
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<style>
+        .chBox {
+            top: 1.2rem;
+            scale: 1.6;
+            margin-left: 0.8rem;
+            margin-right: 0.8rem;
+        }
+
+
+        .textArea {
+            background-color: rgba(255,255,255,.5);
+            color: #000000;
+        }
+
+        body {
+            background-image: url(https://wallpaperset.com/w/full/e/3/2/462753.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</body>
+</html>
